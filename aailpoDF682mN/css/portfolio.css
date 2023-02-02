@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "./colors.css";
+
+
+.header-content h1{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.header-content h1:after{
+    content:' ';
+    display:block;
+    border:2px solid var(--light-blue);
+    width: 60%;
+}
+
+/* projects start*/
+
+.projects{
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .info-container{
+    margin: auto;
+    display: flex;
+}
+
+.card{
+    position: inherit;
+    background-color: var(--light-color);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    color: black;
+    margin: 1rem;
+    /* height: 15rem; */
+    transition: 0.3s;
+    max-width: 18rem;
+    min-width: 15rem;
+    width: 15rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h3{
+    font-weight: 500;
+    margin: 0;
+}
+
+.card:hover{
+    scale: 1.05;
+}
+
+.card ul{
+    list-style-type:disc;
+    padding-left: 0.5rem;
+}
+
+.card li{
+    font-size: 0.9rem;
+    margin: 0.7rem 0rem 0rem 0rem;
+    font-weight: 300;
+}
+
+.card img{
+    width: auto;
+    height: 40px;
+    margin: auto;
+}
+
+h2{
+    font-weight: 400;
+    text-align: right;
+}
+/* end projects */
+
+/* start eurofond*/
+.video-container{
+    margin: 4rem;
+}
+
+.video-container img{
+    border-radius: 1rem;
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+    border-radius: 0.5rem;
+}
+
+.video-container a{
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+/*end eurofond*/
+
+
+/* START INFO CONTAINER*/
+
+
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+
+.img2 img{
+    width: 150px;
+}
+
+.logos-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logos-section img{
+    margin: 2rem;
+    height: 75px;
+    width: auto;
+}
+
+.logos-section .img2{
+    height: 150px;
+}
+/*END INFO CONTAINER*/
